@@ -8,12 +8,14 @@
                     <li><a href="http://twitter.com/Bonboardsrl" class="icon-twitter" target="blank"></a></li>
                     <li><a href="http://www.youtube.com/user/BOnBoardTV" class="icon-youtube" target="blank"></a></li>
                 </ul>
-            </div>
-        </div><hr>
+            </div>  
+            
+        </div>
+
         <div class="row">
             <div class="col-md-3">
                 <h5>CHI SIAMO</h5>
-                B On Board S.r.l. </br>
+                <p>B On Board S.r.l. </br>
                 Galleria dell'Unione 3 - 20122 - </br>
                 Milano (Italy) </br>
                 Partita IVA: 07625830968 </br>
@@ -21,10 +23,10 @@
                 Aut. Min. Lav. Prot. n. 39 del 03/05/2012 </br>
                 Codice Intermediario F205S001271 </br></br>
 
-                e-mail: info@bonboard.it
+                e-mail: info@bonboard.it</p>    
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3" id="events">
                 <h5>EVENTS</h5>
                 <a href="">11/04/2013: BonBoard Network Aperò a Gioia 69 with Internations</a> </br></br>
                 <p>11 Aprile 2013, Bonboard, insieme a Internations, la comunità di espatriati a milano organizza un evento di networking al Gioia69....</p> <hr>
@@ -41,10 +43,10 @@
                 <h5>FACEBOOK</h5>
             </div>
         </div></br>
-        <div class="row">
-            <div class="col-md-12">
-                <p>Copyright 2013 BonBoard | All Rights Reserved</p>
-            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Copyright 2013 BonBoard | All Rights Reserved</p>
         </div>
     </div>
 </footer>

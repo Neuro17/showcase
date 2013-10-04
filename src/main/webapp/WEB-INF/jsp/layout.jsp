@@ -10,7 +10,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link rel="stylesheet"  href="/bonboard/resources/css/vendor/bootstrap/bootstrap.min.css" media="screen">
+        <link rel="stylesheet"  href="/bonboard/resources/css/vendor/bootstrap/bootstrap.min.css" 
+        media="screen">
+        <link rel="stylesheet"  href="/bonboard/resources/css/vendor/bootstrap/bootstrap.min.css" >
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link rel="stylesheet" href="/bonboard/resources/css/main.css"> 
         <link rel="stylesheet" href="/bonboard/resources/css/social.css">
 		<link rel="stylesheet" href="/bonboard/resources/css/jquery-jvectormap-1.1.1.css" media="screen" />
@@ -24,6 +27,8 @@
 		<div>
 			<script src="/bonboard/resources/js/vendor/jQuery.js"></script>
 			<script src="/bonboard/resources/js/vendor/bootstrap/bootstrap.min.js"></script>
+
+
 			<script src="/bonboard/resources/js/vendor/tweetable.jquery.js"></script>
 			<script src="/bonboard/resources/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
 			<script src="/bonboard/resources/js/vendor/world-map.js"></script>

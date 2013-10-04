@@ -1,13 +1,23 @@
 /* navbar */
 .navbar-default {
-    background-color: #A0CE4E !important;
-    border-color: #A0CE4E !important;
+    background-color: #00AA8F !important;
+    border: none !important;
 }
 /* title */
 .navbar-default .navbar-brand {
-    color: #A0CE4E !important ;
+    color: #00AA8F !important ;
 }
 /* link */
+
+form a{
+	color: white;
+}
+
+form a:hover{
+	color: #006266;
+	text-decoration: none;
+}
+
 .navbar-default .navbar-nav > li > a:hover {
     
 }
@@ -23,7 +33,7 @@
 
 .navbar-default .navbar-nav > li > a:hover {
     color: white !important;
-    background: #97B85C !important;
+    background: #006266 !important;
     -webkit-transition:background .2s ease;
 	-moz-transition:background .2s ease;
 	-o-transition:background .2s ease;
@@ -35,16 +45,16 @@
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: white !important;
-    background-color: #A0CE4E !important;
-    background: #97B85C !important;
+    background-color: #00AA8F !important;
+    background: #006266 !important;
 }
 
 .dropdown-toggle {
-	background: #a0ce4e !important;
+	background: #00AA8F !important;
 }
 
 .dropdown-menu{
-	background:#a0ce4e !important;
+	background:#00AA8F !important;
 	border-radius:0px !important;
 	box-shadow:none !important;
 	border-bottom:none !important;
@@ -53,7 +63,7 @@
 }
 
 .dropdown-menu a{
-	background:#a0ce4e !important;
+	background:#00AA8F !important;
 	padding:9px 10px;
 	color:#fff !important;
 	text-shadow:none !important;
@@ -61,12 +71,12 @@
 	-moz-transition:background .2s ease;
 	-o-transition:background .2s ease;
 	transition:background .2s ease;
-	/* border-bottom:1px solid #97B85C; */
+	/* border-bottom:1px solid #006266; */
 }
 
 .dropdown-menu a:hover,.dropdown-menu a:focus{
 	filter:none !important;
-	background:#97B85C !important;
+	background:#006266 !important;
 	-webkit-transition:background .2s ease;
 	-moz-transition:background .2s ease;
 	-o-transition:background .2s ease;
@@ -117,22 +127,27 @@ body {
 }
 
 #mission {
-	margin-top: 20px;
-	background-color: #a0ce4e;
+	padding: 0px 0px 0px 20px;
+	margin-top:15px; 
+	background-color: #F6695B;
 	/*border-left: 5px solid #363839;
 	border-right: 5px solid #363839;*/
+}
+
+#mission h2 {
+	font-size: 60px;
 }
 
 .first-letter {
 	font-size: 62px;
 	text-transform: uppercase;
-	color: #a0ce4e;
+	color: #00AA8F;
 }
 
 p {
 	font: 15px/20px Arial,Helvetica,sans-serif;
 	font-family: Arial,Helvetica,sans-serif!important;
-	color: #747474;
+	
 }
 .center { 
 	float: none; 
@@ -145,15 +160,26 @@ i[class*=" icon-"] {
   bottom: 1px;
   padding-right: 4px;
 }
+
+#events a,
+#tweets a,
+#tweets li {
+	color: #00AA8F;
+	list-style-type: none;
+}
+
+#tweets li{
+	margin-left: -40px;
+}
 /* ==========================================================================
     Global
    ========================================================================== */
 .oppo-lav {
 	background-color: #363839;
 	color: white;
-	font-size: 20px;
-	padding-left: 20px;
-	border-left: 10px solid #a0ce4e;
+	font-size: 30px;
+	padding: 10px 0px 10px 10px;
+	border-left: 10px solid #F6695B;
 }
 
 .advisory {
@@ -195,8 +221,12 @@ footer hr {
 	border-color: #8c8989;
 }
 
-footer h5 {
-	color: white;
+.footer-area h5 {
+	color: #006266;
+}
+
+.footer-area p {
+	color: #718189;
 }
 /* ==========================================================================
    end footer

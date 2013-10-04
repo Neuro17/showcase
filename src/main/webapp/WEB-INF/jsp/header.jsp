@@ -66,7 +66,7 @@
                 </c:when>
                 <c:otherwise>
 
-                    <form class="navbar-form navbar-right" role="search">
+                    <form class="navbar-form navbar-right">
                         <div class="form-group">
                             <input id="user" type="text" class="form-control" placeholder="Username">
                         </div>
