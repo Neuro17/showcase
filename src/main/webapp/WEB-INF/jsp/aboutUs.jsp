@@ -11,20 +11,24 @@
     <![endif]-->
 
     <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-    <div class="container main">
-        
-        <div class="well span11 center" id="mission">
-            <h2>About us</h2>
+    <div class="container">
+        <div class="row">
+            <br><br><br>
+            <div class="well col-md-12" id="mission">
+                <h2>About us</h2>
+            </div>
         </div>
-
-        <ul class="thumbnails">
-            <li class="span12 pagination-centered">
-                <img src="/bonboard/resources/img/about-us-3.jpg" width="728" height="318"/>  
-            </li>
-        </ul></br></br>
+        
+        <div class="row">
+            <div class="col-md-8 center">
+                <a href="#" class="thumbnail">
+                  <img data-src="holder.js/100%x180" src="/bonboard/resources/img/about-us-3.jpg" width="100%" height="100%" alt="...">
+                </a>
+            </div>
+        </div>        
 
         <div class="row">
-            <div class="span10 center">
+            <div class="col-md-12">
                 <p><span class="first-letter">B</span>onboard nasce dalla passione comune di persone che credono nel futuro, nel talento e nelle diverse culture, come valore umano e come vantaggio competitivo di business.</p></br>
 
                 <p>In un mercato sempre più globale BonBoard, porta la multiculturalità alle imprese. Forniamo servizi sia per il mercato dell'internazionalizzazione (outdoor) che per quello interno (indoor) ad esempio per presidiare il segmento multiculturale presente in Italia e sostenere gli investimenti internazionali sul nostro territorio.</p></br>
@@ -36,6 +40,6 @@
                 <p class="pagination-centered"><font size="4"><strong>Scoprire Talenti è la nostra passione.</br> Welcome on board!</strong></font></p></br>
             </div>
         </div>
-    </div></br></br>
+    </div>
 </body>
 </html>

@@ -11,12 +11,12 @@
         <![endif]-->
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-<div class="container main">
-            <div class="well span11 center" id="mission">
+<div class="container"><br><br><br>
+            <div class="well col-md-12" id="mission">
                 <h2>Staff</h2>
             </div></br></br>
 
-            <div class="span11 center">
+            <div class="col-md-12">
                 <div class="page-header">
                     <h4>Rudra Chakraborty - <em>Relazioni Esterne Multiculturali e Web</em></h4>
                 </div>

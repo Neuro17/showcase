@@ -48,12 +48,6 @@
                         <li><a id="en">English</a></li>
                     </ul>
                 </li>
-                <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://www.facebook.com/bonboardsrl?fref=ts" class="icon-facebook" target="blank"></a></li>
-                <li><a href="http://www.linkedin.com/company/2599173?goback=npv_109304284_*1_*1_OUT*4OF*4NETWORK_vvJ*5_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1&trk=prof-0-ovw-curr_pos" class="icon-linkedin" target="blank"></a></li>
-                <li><a href="http://twitter.com/Bonboardsrl" class="icon-twitter" target="blank"></a></li>
-                <li><a href="http://www.youtube.com/user/BOnBoardTV" class="icon-youtube" target="blank"></a></li>
-                 --></ul>
             </ul>
 
             <c:choose>

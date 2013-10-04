@@ -30,6 +30,7 @@ a[class*="icon-"] {
   list-style: none;
   text-align: center;
   margin-left: -50px;
+  margin-bottom: -10px;
 }
 
 .icons-set li {
