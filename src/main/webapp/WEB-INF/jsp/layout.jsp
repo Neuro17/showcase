@@ -11,15 +11,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link rel="stylesheet"  href="/bonboard/resources/css/vendor/bootstrap/bootstrap.min.css" media="screen">
-        <!-- <link rel="stylesheet" href="/bonboard/resources/css/main.css"> -->
+        <link rel="stylesheet" href="/bonboard/resources/css/main.css"> 
         <link rel="stylesheet" href="/bonboard/resources/css/social.css">
 		<link rel="stylesheet" href="/bonboard/resources/css/jquery-jvectormap-1.1.1.css" media="screen" />
         <script src="/bonboard/resources/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
 		<div class="row"><tiles:insertAttribute name="header" /></div>
-		<%-- <div class="row"><tiles:insertAttribute name="body" /></div>
-		<div class="row"><tiles:insertAttribute name="footer" /></div> --%>
+		<div class="row"><tiles:insertAttribute name="body" /></div>
+		<%-- <div class="row"><tiles:insertAttribute name="footer" /></div> --%>
 		
 		<div>
 			<script src="/bonboard/resources/js/vendor/jQuery.js"></script>
