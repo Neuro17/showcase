@@ -29,8 +29,7 @@ a[class*="icon-"] {
 .icons-set {
   list-style: none;
   text-align: center;
-  margin-right: 10px;
-  margin-top: 20px;;
+  margin-left: -50px;
 }
 
 .icons-set li {
@@ -60,7 +59,7 @@ a[class*="icon-"] {
   background-image: -ms-linear-gradient(top, #f7f7f7, #e7e7e7); 
   background-image: -o-linear-gradient(top, #f7f7f7, #e7e7e7); */
   color: white;
-  background-color: #33363B;
+  background-color: #A0CE4E;
   margin: 6px;
   width: 40px;
   height: 40px;

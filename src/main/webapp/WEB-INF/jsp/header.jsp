@@ -62,7 +62,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">${username} <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a id="logOutButt">logout</a></li>
+                                <li><a id="logOutButt" href="">logout</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
                                 <li><a href="#">Separated link</a></li>
