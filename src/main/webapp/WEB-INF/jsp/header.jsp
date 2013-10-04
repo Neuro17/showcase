@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+    <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <div class="row">
@@ -16,8 +16,8 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/bonboard/home">Home</a></li>
-                <li class="dropdown">
+                <li id="home" ><a href="/bonboard/home">Home</a></li>
+                <li id="about" class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></i><spring:message code="welcome.chisiamo" text="default text" /><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/bonboard/about/about_us">About us</a></li>
@@ -26,7 +26,7 @@
                         <li><a href="/bonboard/about/staff">Staff</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
+                <li id="servizi" class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></i><spring:message code="welcome.servizi" text="default text" /><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/bonboard/servizi/i_nostri_servizi_per_voi"><spring:message code="welcome.serviziPerVoi" text="default text" /></a></li>
@@ -39,13 +39,13 @@
                 <li id="blog" class=""><a href="/bonboard/blog">Blog</a></li>
                 <c:if test="${admin}">
                     <li id="admin" class=""><a href="/bonboard/admin/dashboard">Admin</a></li>
-                    <li id="admin" class=""><a href="/bonboard/admin/usersList">UsersList</a></li>
+                    <li id="usersList" class=""><a href="/bonboard/admin/usersList">UsersList</a></li>
                 </c:if>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"></i><spring:message code="welcome.lingua" text="default text" /><b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a id="it">Italiano</a></li>
-                        <li><a id="en">English</a></li>
+                        <li><a id="it" class="pointer">Italiano</a></li>
+                        <li><a id="en" class="pointer">English</a></li>
                     </ul>
                 </li>
             </ul>
@@ -81,3 +81,13 @@
         </div><!-- /.navbar-collapse -->
     </div>
 </div>
+<script src="/bonboard/resources/js/vendor/jQuery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('ul.nav li.dropdown').hover(function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(200);
+        }, function() {
+          $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
+        });  
+    });
+</script>

@@ -1,3 +1,83 @@
+/* navbar */
+.navbar-default {
+    background-color: #A0CE4E !important;
+    border-color: #A0CE4E !important;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #A0CE4E !important ;
+}
+/* link */
+.navbar-default .navbar-nav > li > a:hover {
+    
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white !important;
+	text-shadow:none !important;
+	-webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+	transition:background .2s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white !important;
+    background: #97B85C !important;
+    -webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+	transition:background .2s ease;
+}
+
+/* active link */
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: #A0CE4E !important;
+    background: #97B85C !important;
+}
+
+.dropdown-toggle {
+	background: #a0ce4e !important;
+}
+
+.dropdown-menu{
+	background:#a0ce4e !important;
+	border-radius:0px !important;
+	box-shadow:none !important;
+	border-bottom:none !important;
+	padding:0px 0px;
+	margin:0px;
+}
+
+.dropdown-menu a{
+	background:#a0ce4e !important;
+	padding:9px 10px;
+	color:#fff !important;
+	text-shadow:none !important;
+	-webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+	transition:background .2s ease;
+	/* border-bottom:1px solid #97B85C; */
+}
+
+.dropdown-menu a:hover,.dropdown-menu a:focus{
+	filter:none !important;
+	background:#97B85C !important;
+	-webkit-transition:background .2s ease;
+	-moz-transition:background .2s ease;
+	-o-transition:background .2s ease;
+	transition:background .2s ease;
+}
+
+.dropdown-menu::after, .dropdown-menu::before{
+	border:none !important;
+}
+
+
 /* ==========================================================================
     Global
    ========================================================================== */
@@ -32,7 +112,7 @@ body {
 	border-top: 10px solid #a0ce4e;
 }
 
-.language:hover {
+.pointer:hover {
 	cursor: pointer;	
 }
 
@@ -84,10 +164,10 @@ div[data-target*="div"]:hover {
 	cursor: pointer;
 }
 
-#tweets{
+/* #tweets{
 	list-style-image: url('../img/icon/twitter_alt.svg');
-	font-size: 40px;
-}
+	font-size: 4px;
+} */
 
 /* ==========================================================================
   	Register page

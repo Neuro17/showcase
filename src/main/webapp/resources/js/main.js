@@ -29,7 +29,7 @@ function switchLang(caller){
 };
 
 function refreshActiveClass(){
-	var navbar = ['#home', '#about', '#servizi', '#offerte', '#press', '#blog'];
+	var navbar = ['#home', '#about', '#servizi', '#offerte', '#press', '#blog', '#admin', '#usersList'];
 	for(var i = 0; i < navbar.length; i++){
 		jq(navbar[i]).removeClass('active');
 	}
