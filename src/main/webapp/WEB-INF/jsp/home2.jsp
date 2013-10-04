@@ -25,7 +25,7 @@
 	<a class="carousel-control left" href="#this-carousel-id" data-slide="prev"></a>
 	<a class="carousel-control right" href="#this-carousel-id" data-slide="next"></a>
 </div><br>
-<div class="container main">
+<div class="container">
     <div class="well col-md-12" id="mission">
         <!-- <div class="page-header"> -->
         <h2>MISSION</h2>

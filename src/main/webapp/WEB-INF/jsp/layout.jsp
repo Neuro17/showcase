@@ -19,7 +19,7 @@
 	<body>
 		<div class="row"><tiles:insertAttribute name="header" /></div>
 		<div class="row"><tiles:insertAttribute name="body" /></div>
-		<%-- <div class="row"><tiles:insertAttribute name="footer" /></div> --%>
+		<div class="row"><tiles:insertAttribute name="footer" /></div>
 		
 		<div>
 			<script src="/bonboard/resources/js/vendor/jQuery.js"></script>
