@@ -21,7 +21,7 @@
 					<div class="col-lg-3">
 				  		<input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
 					</div>	
-					<div class="alert alert-danger hidden col-sm-2" id="fnamelabel"></div>		
+					<div class="alert alert-danger hidden col-md-3" id="fnamelabel"></div>		
 				</div>
 				
 				<div class="form-group">
@@ -29,21 +29,21 @@
 					<div class="col-lg-3">
 				  		<input type="text" class="form-control" id="lname" name="lname" placeholder="Last Name">
 					</div>
-					<div class="alert alert-danger hidden col-sm-2" id="lnamelabel"></div>
+					<div class="alert alert-danger hidden col-md-3" id="lnamelabel"></div>
 				</div>
 				<div class="form-group">
 					<label for="username" class="col-lg-2 control-label">Username</label>
 					<div class="col-lg-3">
 				  		<input type="text" class="form-control" id="username" name="username" placeholder="Username">
 					</div>
-					<div class="alert alert-danger hidden col-sm-2" id="userlabel"></div>
+					<div class="alert alert-danger hidden col-md-3" id="userlabel"></div>
 				</div>
 				<div class="form-group">
 					<label for="email" class="col-lg-2 control-label">Email</label>
 					<div class="col-lg-3">
 				  		<input type="mail" class="form-control" id="email" name="email" placeholder="Email">
 					</div>
-					<div class="alert alert-danger hidden col-sm-2" id="maillabel"></div>
+					<div class="alert alert-danger hidden col-md-3" id="maillabel"></div>
 				</div>
 				<div class="form-group">
 			        <label for="gender" class="col-lg-2 control-label">Gender</label>
@@ -59,14 +59,14 @@
 					<div class="col-lg-3">
 					  <input type="password" class="form-control" id="password" name="password" placeholder="Password">
 					</div>
-					<div class="alert alert-danger hidden col-sm-2" id="passlabel"></div>
+					<div class="alert alert-danger hidden col-md-3" id="passlabel"></div>
 				</div>
 				<div class="form-group">
 					<label for="cpassword" class="col-lg-2 control-label">Confirm Password</label>
 					<div class="col-lg-3">
 					  <input type="Password" id="cpassword" class="form-control" name="cpassword" placeholder="Re-enter Password">
 					</div>
-					<div class="alert alert-danger hidden col-sm-2" id="cpasslabel"></div>
+					<div class="alert alert-danger hidden col-md-3" id="cpasslabel"></div>
 				</div>
 				<div class="form-group">
 					<div class="col-lg-offset-2 col-lg-10">
