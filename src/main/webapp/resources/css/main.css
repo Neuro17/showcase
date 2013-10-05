@@ -1,3 +1,5 @@
+
+
 /* navbar */
 .navbar-default {
     background-color: #00AA8F !important;
@@ -57,9 +59,9 @@ form a:hover{
 	background:#00AA8F !important;
 	border-radius:0px !important;
 	box-shadow:none !important;
-	border-bottom:none !important;
 	padding:0px 0px;
 	margin:0px;
+	border: none !important;
 }
 
 .dropdown-menu a{
